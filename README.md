@@ -7,8 +7,6 @@ This project is a simple one-page website built using Bootstrap. The website inc
 my-bootstrap-website/
 ├── css/
 │ └── styles.css
-├── images/
-│ └── social-icons/ (optional, for social media icons)
 ├── index.html
 └── README.md
 
