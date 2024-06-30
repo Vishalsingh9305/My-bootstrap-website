@@ -5,8 +5,6 @@ This project is a simple one-page website built using Bootstrap. The website inc
 
 ## Folder Structure
 my-bootstrap-website/
-├── css/
-│ └── styles.css
 ├── index.html
 └── README.md
 
