@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="One page website for sports using Bootstrap">
+  <meta name="author" content="Your Name">
+
+  <title>Sports Hub</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Sports Hub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sports">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Unit -->
+  <div class="jumbotron jumbotron-fluid text-white text-center bg-primary">
+    <div class="container">
+      <h1 class="display-4">Sports Hub</h1>
+      <p class="lead">Your ultimate destination for sports news and updates.</p>
+    </div>
+  </div>
+
+  <!-- Main Content - Sports Categories -->
+  <div class="container">
+    <section id="sports">
+      <h2 class="text-center mb-4">Popular Sports Categories</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/football.jpg" class="card-img-top" alt="Football">
+            <div class="card-body">
+              <h5 class="card-title">Football</h5>
+              <p class="card-text">Latest news and match updates.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/basketball.jpg" class="card-img-top" alt="Basketball">
+            <div class="card-body">
+              <h5 class="card-title">Basketball</h5>
+              <p class="card-text">NBA, college basketball, and more.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="img/tennis.jpg" class="card-img-top" alt="Tennis">
+            <div class="card-body">
+              <h5 class="card-title">Tennis</h5>
+              <p class="card-text">Grand Slam tournaments and player rankings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Follow us on social media:</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">facebook<i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#">twitter<i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#">instagram<i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>&copy; 2024 Sports Hub. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
