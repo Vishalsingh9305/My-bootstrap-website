@@ -13,7 +13,7 @@ Sports Hub is a responsive one-page website built using Bootstrap, designed for 
 
 - HTML5
 - CSS3 (including Bootstrap)
-- JavaScript (for Bootstrap components)
+
 
 ## Setup
 
