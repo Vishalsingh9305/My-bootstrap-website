@@ -25,3 +25,4 @@ To view the Sports Hub website locally:
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests for enhancements. For major changes, please open an issue first to discuss.
 
+Author Vishal Singh
